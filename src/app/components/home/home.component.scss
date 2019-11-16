@@ -1,0 +1,15 @@
+.home-section {
+    background:url('../../../assets/images/laptop-office-working-men-3153201.jpg');
+    min-height:600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .home-title {
+        p {
+            font-size: 3rem;
+            color: cornflowerblue;
+        }
+    }
+}

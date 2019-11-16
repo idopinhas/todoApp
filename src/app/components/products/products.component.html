@@ -1,0 +1,9 @@
+<section class="products-section pt-5 pb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-4" *ngFor="let product of products$">
+        <app-product [product]="product" (removeProductFromParent)="removeProduct($event)"></app-product>
+      </div>
+    </div>
+  </div>
+</section>
